@@ -1,0 +1,35 @@
+body {
+	background-color: pink;
+}
+
+#fav_animal {
+	color: blue;
+	font-size: 25px;
+}
+
+.highlight {
+	background-color: green;
+	font-family: Milarose Script;
+}
+
+td, th {
+	background-color: #a570fa;
+}
+
+footer {
+	color: red;
+}
+
+
+table {
+	background-color: #640af5;
+}
+
+h1 {
+	font-family: Baskerville Old Face;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: Baskerville Old Face;
+}
