@@ -1,0 +1,246 @@
+body {
+	background-color: pink;
+}
+
+
+#fav_animal {
+	color: blue;
+	font-size: 25px;
+	padding: 6px 5px;
+	border: dashed black;
+	margin: 20px 10px;
+}
+
+
+td, th {
+	background-color: #a570fa;
+}
+
+
+table {
+	background-color: #640af5;
+}
+
+
+footer {
+	color: red;
+	padding: 10px 5px;
+	border: dashed black 2px;
+	margin: 20px 10px;
+}
+
+
+h1 {
+	font-family: Baskerville Old Face;
+	font-size: 40px;
+}
+
+
+h2 {
+	font-family: Baskerville Old Face;
+	padding: 5px 5px;
+	border: dashed black 2.5px;
+	margin: 20px 10px;
+}
+
+
+@font-face {
+	font-family: MilaroseScript;
+	src: url(./fonts/MilaroseScript-Regular.ttf) format(truetype);
+}
+
+
+.highlight {
+	background-color: green;
+	font-family: MilaroseScript;
+	
+	padding: 5px 5px;
+	border: solid black 2px;
+	margin: 5px 10px;
+}
+
+
+nav {
+	font-size: 25px;
+	
+	display: flex;
+	
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+	
+	background-color: white;
+}
+
+
+nav a {
+	border: 2px solid black;
+}
+
+
+header {
+	display: flex;
+	
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+	
+	background-color: darkgreen;
+	border: solid black 2px;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:active {
+	color: purple;
+}
+
+
+@media (max-width: 600px) {
+	header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        width: auto;
+        text-align: center;
+    }
+
+    #fav_animal {
+        width: auto;
+        margin: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    td, th {
+        padding: 5px;
+    }
+
+    footer {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media (601px < width < 1024px) {
+	header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        width: 40%;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h2 {
+        width: auto;
+        text-align: center;
+    }
+
+    #fav_animal {
+        width: auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    footer {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1025px) {
+	header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+
+    nav a {
+        width: 28%;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        width: auto;
+        text-align: center;
+    }
+}
